@@ -1,0 +1,1 @@
+Order form app using reactjs. Orders are stored in a simple json file where db_ui, a front end react app is used to access the orders. Staff members will key in the weights of the orders and generate and send an invoice via whatsapp. (twilio)
