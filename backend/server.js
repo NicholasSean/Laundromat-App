@@ -9,8 +9,7 @@ const app = express();
 const PORT = 5000;
 
 
-const accountSid = //"AC7cba6a762261aff5ebaff8ac5f34279d"; // Replace with your Twilio SID
-const authToken = //"4aa99fad50d54f8df7606efba2a8b303"; // Replace with your Twilio Auth Token
+
 const client = twilio(accountSid, authToken);
 
 // Middleware
